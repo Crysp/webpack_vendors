@@ -1,0 +1,13 @@
+{
+    "name": "webpack_vendors",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "vendors": "./node_modules/.bin/webpack --config webpack.dll.config.js",
+        "build": "./node_modules/.bin/webpack"
+    },
+    "dependencies": {
+        "webpack": "3"
+    }
+}
